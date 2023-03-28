@@ -1,12 +1,12 @@
 {
-  "name": "@openpalette/contract",
+  "name": "@openpalettemodified/contract",
   "author": {
     "name": "Devin Abbott",
     "email": "dabbott@noyasoftware.com"
   },
   "version": "0.2.3",
   "license": "MIT",
-  "repository": "https://github.com/openpalette/OpenPalette",
+  "repository": "https://github.com/dr-data/OpenPaletteModified",
   "main": "dist/index.js",
   "module": "dist/core.esm.js",
   "typings": "dist/index.d.ts",

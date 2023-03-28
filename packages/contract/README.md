@@ -1,15 +1,15 @@
-# @openpalette/contract
+# @openpalettemodified/contract
 
 A library for working with the OpenPalette contract.
 
 ```bash
-npm install --save @openpalette/contract
+npm install --save @openpalettemodified/contract
 ```
 
 OR
 
 ```bash
-yarn add @openpalette/contract
+yarn add @openpalettemodified/contract
 ```
 
 ## Usage
@@ -18,7 +18,7 @@ This library includes utilities for calling the OpenPalette contract, such as th
 
 Here's a minimal TypeScript example of fetching tokens for an address:
 
-> Try it live on [CodeSandbox](https://codesandbox.io/s/fetch-openpalette-tokens-vfk02?file=/src/index.ts)
+> Try it live on [CodeSandbox](https://codesandbox.io/s/fetch-openpalettemodified-tokens-vfk02?file=/src/index.ts)
 
 ```ts
 import { ethers } from 'ethers';
@@ -30,7 +30,7 @@ import {
   IERC721Contract,
   getContractAddress,
   getTokensForOwner,
-} from '@openpalette/contract';
+} from '@openpalettemodified/contract';
 
 async function fetchTokens() {
   const ethereum: any = await detectEthereumProvider();
@@ -95,7 +95,7 @@ Creates a branded `Address` string. Also does minimal address validation.
 #### Example
 
 ```ts
-import { createAddress } from '@openpalette/contract';
+import { createAddress } from '@openpalettemodified/contract';
 
 console.log(createAddress('0x5BF4be9de72713bFE39A30EbE0691afd5fb7413a'));
 // => "0x5BF4be9de72713bFE39A30EbE0691afd5fb7413a"
@@ -110,7 +110,7 @@ Converts from `Address` to `string`.
 #### Example
 
 ```ts
-import { createAddress, addressToString } from '@openpalette/contract';
+import { createAddress, addressToString } from '@openpalettemodified/contract';
 
 const address = createAddress('0x5BF4be9de72713bFE39A30EbE0691afd5fb7413a');
 console.log(addressToString(address)); // => "'0x5BF4be9de72713bFE39A30EbE0691afd5fb7413a'"

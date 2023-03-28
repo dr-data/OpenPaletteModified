@@ -1,23 +1,29 @@
-# @openpalette/core
+# @openpalettemodified/core
 
 A library for interacting with OpenPalette data.
 
 ```bash
-npm install --save @openpalette/core
+npm install --save @openpalettemodified/core
 ```
 
 OR
 
 ```bash
-yarn add @openpalette/core
+yarn add @openpalettemodified/core
 ```
 
 ## API
 
-- [getPalettes](#getPalettes)
-- [getPaletteById](#getPaletteById)
-- [isValidPaletteId](#isValidPaletteId)
-- [getColors](#getColors)
+- [@openpalettemodified/core](#openpalettemodifiedcore)
+  - [API](#api)
+    - [`getPalettes`](#getpalettes)
+      - [Example](#example)
+    - [`getPaletteById`](#getpalettebyid)
+      - [Example](#example-1)
+    - [`isValidPaletteId`](#isvalidpaletteid)
+      - [Example](#example-2)
+    - [`getColors`](#getcolors)
+      - [Example](#example-3)
 
 ---
 
@@ -30,7 +36,7 @@ Returns an array of all palettes.
 #### Example
 
 ```ts
-import { getPalettes } from '@openpalette/core';
+import { getPalettes } from '@openpalettemodified/core';
 
 console.log(getPalettes()); // => [{ id: 0, colors: ['#ee7722', ...]}, ...]
 ```
@@ -46,7 +52,7 @@ Throws an error if the palette ID is invalid.
 #### Example
 
 ```ts
-import { getPaletteById } from '@openpalette/core';
+import { getPaletteById } from '@openpalettemodified/core';
 
 console.log(getPaletteById(0)); // => { id: 0, colors: ['#ee7722', ...]}
 ```
@@ -62,7 +68,7 @@ Returns true for integers within the range [0, 9999] inclusive.
 #### Example
 
 ```ts
-import { isValidPaletteId } from '@openpalette/core';
+import { isValidPaletteId } from '@openpalettemodified/core';
 
 console.log(isValidPaletteId(0)); // => true
 console.log(isValidPaletteId(0.5)); // => false
@@ -78,7 +84,7 @@ Returns the array of colors for the specified OpenPalette.
 #### Example
 
 ```ts
-import { getColors } from '@openpalette/core';
+import { getColors } from '@openpalettemodified/core';
 
 console.log(getColors(0)); // => ['#ee7722', '#dd44cc', '#ee8833', '#cc99bb', '#775511']
 ```

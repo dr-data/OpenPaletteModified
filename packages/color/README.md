@@ -1,15 +1,15 @@
-# @openpalette/core
+# @openpalettemodified/core
 
 A library for working with OpenPalette colors.
 
 ```bash
-npm install --save @openpalette/color
+npm install --save @openpalettemodified/color
 ```
 
 OR
 
 ```bash
-yarn add @openpalette/color
+yarn add @openpalettemodified/color
 ```
 
 ## API
