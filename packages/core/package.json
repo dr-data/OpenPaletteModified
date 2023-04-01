@@ -1,12 +1,12 @@
 {
   "name": "@openpalettemodfied/core",
-  "author": {
-    "name": "Devin Abbott",
-    "email": "dabbott@noyasoftware.com"
-  },
+  "author": "Devin Abbott <dabbott@noyasoftware.com>",
   "version": "0.3.1",
   "license": "MIT",
-  "repository": "https://github.com/dr-data/OpenPaletteModified",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dr-data/OpenPaletteModified.git"
+  },
   "main": "dist/index.js",
   "module": "dist/core.esm.js",
   "typings": "dist/index.d.ts",
@@ -47,5 +47,17 @@
   "devDependencies": {
     "tsdx": "^0.14.1",
     "tslib": "^2.3.1"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "description": "A library for interacting with OpenPalette data.",
+  "bugs": {
+    "url": "https://github.com/dr-data/OpenPaletteModified/issues"
+  },
+  "homepage": "https://github.com/dr-data/OpenPaletteModified#readme",
+  "directories": {
+    "example": "example"
   }
 }
