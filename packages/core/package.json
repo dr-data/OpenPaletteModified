@@ -1,12 +1,9 @@
 {
-  "name": "@openpalettemodfied/core",
-  "author": "Devin Abbott <dabbott@noyasoftware.com>",
-  "version": "0.3.1",
+  "name": "@openpalettemodified/core",
+  "author": "data <data+test@9lab.co>",
+  "version": "0.3.12",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dr-data/OpenPaletteModified.git"
-  },
+  "repository": "https://github.com/dr-data/OpenPaletteModified.git",
   "main": "dist/index.js",
   "module": "dist/core.esm.js",
   "typings": "dist/index.d.ts",

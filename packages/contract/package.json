@@ -2,9 +2,9 @@
   "name": "@openpalettemodified/contract",
   "author": {
     "name": "Devin Abbott",
-    "email": "dabbott@noyasoftware.com"
+    "email": "dabbott@noyasoftwcdare.com"
   },
-  "version": "0.2.3",
+  "version": "0.2.4",
   "license": "MIT",
   "repository": "https://github.com/dr-data/OpenPaletteModified",
   "main": "dist/index.js",

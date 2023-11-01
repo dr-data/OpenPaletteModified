@@ -1,17 +1,17 @@
 {
-  "private": true,
+  "private": false,
   "name": "openpalettemodified",
   "workspaces": {
     "packages": [
       "packages/*"
     ]
   },
-  "version": "0.0.0",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dr-data/OpenPaletteModified.git"
   },
-  "author": "Devin Abbott <dabbott@noyasoftware.com>",
+  "author": "data <data+git@9lab.co>",
   "license": "MIT",
   "prettier": {
     "printWidth": 80,
